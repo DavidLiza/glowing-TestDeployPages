@@ -1,0 +1,20 @@
+{
+    "development": {
+        "multiprocessor": false,
+        "server": {
+            "http": {
+                "port": "8246"
+            }
+        }
+    },
+    
+    "production": {
+        "multiprocessor": false,
+        "server": {
+            "http": {
+                "port": "8246"
+            }
+        } 
+    }
+
+}

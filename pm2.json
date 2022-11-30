@@ -1,0 +1,17 @@
+{
+    "name": "RUNT_CONSULT_VC",
+    "script": "index.js",
+    "log_date_format": "YYYY-DD-MM HH:mm:ss.SSS",
+    "watch": "true",
+    "ignore_watch": ["node_modules"],
+    "log_file": "./logs/BOT.outerr.log",
+    "error_file": "./logs/BOT.err.log",
+    "out_file": "./logs/BOT.out.log",
+    "pid_file": "./logs/BOT.pid.log",
+    "env" : {
+        "NODE_ENV": "development"
+    },
+    "env_production" : {
+        "NODE_ENV": "production"
+    }
+}
